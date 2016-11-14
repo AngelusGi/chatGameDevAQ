@@ -8,7 +8,7 @@ namespace GameDevAQ
     {
         public void Send(string name, string message)
         {
-            // Call the broadcastMessage method to update clients.
+            //broadcastMessage update client
             Clients.All.broadcastMessage(name, message);
         }
     }
